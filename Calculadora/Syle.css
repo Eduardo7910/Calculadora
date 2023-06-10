@@ -1,0 +1,119 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+body {
+    background: linear-gradient(to right, #012340, #025939, #027333, #03A63C, #04D939);
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+}
+
+.calculadora{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    height: 20rem;
+    width: 25rem;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.pantalla{
+    display: flex;
+    justify-content: center;
+    width: 94%;
+    height: 60px;
+    font-size: 24px;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.teclado{
+    display: flex;
+}
+
+.numeros_Teclado{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    width: 50%;
+}
+
+.operaciones_Teclado{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    width: 10rem;
+    padding: 10px; 
+}
+
+.bottn{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #ccc;
+    border: none;
+    margin: 5px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transition: all .30s ease;
+    transform: translateY(-3%);
+}
+
+.bottn_Igual{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #ccc;
+    border: none;
+    margin: 5px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transition: all .30s ease;
+    transform: translateY(-3%);
+}
+
+.bottn_Borrar{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #ccc;
+    border: none;
+    margin: 5px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transition: all .30s ease;
+    transform: translateY(-3%);
+}
+
+
+.bottn_Operacion{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #ccc;
+    border: none;
+    margin: 5px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transition: all .30s ease;
+    transform: translateY(-3%);
+}
+
+.bottn:hover, .bottn_Operacion:hover{
+    background-color: beige;
+}
+
+.bottn:active, .bottn_Operacion:active{
+    background-color: #025939;
+}
